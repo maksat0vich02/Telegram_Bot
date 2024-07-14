@@ -1,0 +1,32 @@
+.ContactTelegram {
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    gap: 1vw;
+    h1 {
+      font-size: 3vw;
+      color: rgb(218, 209, 206);
+    }
+
+    .form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      input {
+        padding: 1vw 1vw;
+        border-radius: 1vw;
+      }
+      button {
+        padding: 1vw 2vw;
+        border-radius: 1vw;
+        box-shadow: 2px 2px 2px 2px gray;
+        font-size: 1vw;
+        border: none;
+      }
+    }
+  }
+}
